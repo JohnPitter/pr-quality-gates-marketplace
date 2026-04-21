@@ -1,25 +1,20 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "pr-quality-gates",
   "description": "PR quality gates for Go projects: cyclomatic complexity, coverage, mutation, file size, and coupling.",
+  "name": "pr-quality-gates",
   "owner": {
     "name": "JohnPitter",
     "url": "https://github.com/JohnPitter"
   },
   "plugins": [
     {
-      "name": "pr-quality-gates",
-      "description": "8-gate PR validation: CCN, coverage, mutation, file size, coupling, SAST (gosec), supply chain (govulncheck), secrets (gitleaks).",
-      "version": "0.2.0",
       "author": {
         "name": "JohnPitter",
         "url": "https://github.com/JohnPitter"
       },
-      "source": "./plugins/pr-quality-gates",
       "category": "quality",
+      "description": "Baseline-aware PR validation for Go: CCN, coverage, mutation, file size, coupling, SAST, supply chain, secrets. Ratchet mode for legacy adoption.",
       "homepage": "https://github.com/JohnPitter/pr-quality-gates",
-      "repository": "https://github.com/JohnPitter/pr-quality-gates",
-      "license": "MIT",
       "keywords": [
         "go",
         "golang",
@@ -30,7 +25,12 @@
         "mutation-testing",
         "depguard",
         "ci"
-      ]
+      ],
+      "license": "MIT",
+      "name": "pr-quality-gates",
+      "repository": "https://github.com/JohnPitter/pr-quality-gates",
+      "source": "./plugins/pr-quality-gates",
+      "version": "0.2.1"
     }
   ]
 }
