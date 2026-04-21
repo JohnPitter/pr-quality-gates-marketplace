@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "pr-quality-gates",
-      "description": "5-gate PR validation: CCN (<=10), coverage (>=85%), mutation (>=65%), file size (<=300), coupling (cycles/layers/impl-to-impl).",
-      "version": "0.1.0",
+      "description": "8-gate PR validation: CCN, coverage, mutation, file size, coupling, SAST (gosec), supply chain (govulncheck), secrets (gitleaks).",
+      "version": "0.2.0",
       "author": {
         "name": "JohnPitter",
         "url": "https://github.com/JohnPitter"
