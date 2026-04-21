@@ -13,7 +13,7 @@
         "url": "https://github.com/JohnPitter"
       },
       "category": "quality",
-      "description": "Baseline-aware PR validation for Go: CCN, coverage, mutation, file size, coupling, SAST, supply chain, secrets. Ratchet mode for legacy adoption.",
+      "description": "67 gates across 11 categories for Go: security, quality, architecture, performance, reliability, observability, operational, data, testing, compliance, release. Filter by category.",
       "homepage": "https://github.com/JohnPitter/pr-quality-gates",
       "keywords": [
         "go",
@@ -30,7 +30,7 @@
       "name": "pr-quality-gates",
       "repository": "https://github.com/JohnPitter/pr-quality-gates",
       "source": "./plugins/pr-quality-gates",
-      "version": "0.2.2"
+      "version": "0.3.0"
     }
   ]
 }
