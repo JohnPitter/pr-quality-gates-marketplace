@@ -1,0 +1,3 @@
+[submodule "plugins/pr-quality-gates"]
+	path = plugins/pr-quality-gates
+	url = https://github.com/JohnPitter/pr-quality-gates.git

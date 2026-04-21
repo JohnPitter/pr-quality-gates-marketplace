@@ -1,0 +1,36 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pr-quality-gates",
+  "description": "PR quality gates for Go projects: cyclomatic complexity, coverage, mutation, file size, and coupling.",
+  "owner": {
+    "name": "JohnPitter",
+    "url": "https://github.com/JohnPitter"
+  },
+  "plugins": [
+    {
+      "name": "pr-quality-gates",
+      "description": "5-gate PR validation: CCN (<=10), coverage (>=85%), mutation (>=65%), file size (<=300), coupling (cycles/layers/impl-to-impl).",
+      "version": "0.1.0",
+      "author": {
+        "name": "JohnPitter",
+        "url": "https://github.com/JohnPitter"
+      },
+      "source": "./plugins/pr-quality-gates",
+      "category": "quality",
+      "homepage": "https://github.com/JohnPitter/pr-quality-gates",
+      "repository": "https://github.com/JohnPitter/pr-quality-gates",
+      "license": "MIT",
+      "keywords": [
+        "go",
+        "golang",
+        "code-quality",
+        "pull-request",
+        "cyclomatic-complexity",
+        "coverage",
+        "mutation-testing",
+        "depguard",
+        "ci"
+      ]
+    }
+  ]
+}
